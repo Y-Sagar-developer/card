@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 2%;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+        background-color: rgb(240, 234, 234);
+      }
+
+      .card-img-top {
+        height: 280px;
+
+        object-fit: cover;
+      }
+
+      .card-body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
+          <div class="card" style="width: 25rem; margin: auto">
+            <img
+              src="https://i.pinimg.com/564x/43/26/a8/4326a8653cae1ba0ce276fd293dd2661.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mountain Landscape</h5>
+              <p class="card-text">
+                This card showcases a stunning mountain landscape. Enjoy the
+                beauty of nature and explore the majestic views of mountain
+                ranges.
+              </p>
+
+              <a
+                href="https://en.wikipedia.org/wiki/Mountain"
+                target="_blank"
+                class="btn btn-success"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
